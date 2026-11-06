@@ -19,6 +19,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -29,10 +30,11 @@ safe-outputs:
 # Update GitHub Info
 
 Read `notes/mona-notes.md` using the GitHub repository tools before drafting any
-content. Fetch the latest posts from both:
+content. Web fetch the latest content from:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the official GitHub Blog and Changelog pages to identify practical,
 developer-focused updates that fit Mona's editorial angle. Keep summaries short,
